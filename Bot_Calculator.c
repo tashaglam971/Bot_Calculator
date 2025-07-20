@@ -1,9 +1,16 @@
+/*include standard input output 
+for user input or output */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>                           >
 
+//int main is the main function
+
 int main() {
 
+//to store a variable if i enter 
+//Calculate command
 int prix;
 
 char hacker_input[50];                         >
