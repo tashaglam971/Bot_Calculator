@@ -1,4 +1,6 @@
-/*include standard input output 
+/*code unfinished, ultra beginner
+level
+include standard input output 
 for user input or output */
 
 #include <stdio.h>
