@@ -22,9 +22,9 @@ char add_command[10] = "add";
 
 printf("Cindy GLAM, entrez une commande: ");
 fgets(user_input, sizeof(user_input), stdin);
-hacker_input[strcspn(user_input, "\n")] = 0;
+user_input[strcspn(user_input, "\n")] = 0;
 
-if (strcmp(hacker_input, commands) == 0) {
+if (strcmp(user_input, commands) == 0) {
 printf("Entrez les digits que vous voulez calculer: ");
 }
 
